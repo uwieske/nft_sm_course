@@ -1,0 +1,29 @@
+{
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "solidity.packageDefaultDependenciesContractsDirectory": "contracts",
+    "solidity.remappings": [
+    
+        
+        "@openzeppelin=/Users/<YOUR_USERNAME>/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.6.0",
+    ],
+    "solidity.packageDefaultDependenciesDirectory": "/Users/<YOUR_USERNAME>/.brownie/packages",
+    "solidity.defaultCompiler": "remote",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.autoComplete.extraPaths": [
+    "build",
+    "build/contracts",
+    "build/contracts/dependencies",
+    "/Users/<YOUR_USERNAME>/.brownie/packages"
+    ],
+    "python.analysis.extraPaths": [
+        "build",
+        "build/contracts",
+        "build/contracts/dependencies",
+        "/Users/<YOUR_USERNAME>/.brownie/packages"
+    ],    
+}

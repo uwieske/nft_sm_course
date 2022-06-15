@@ -1,0 +1,16 @@
+# name of the environment: conda activate <name>
+# channels are the sites which host conda packages
+# dependencies are the conda and pip packages that need to be installed in this environment 
+# Note: you can use conda to also install pip packages. Please check out the conda docs for more information
+# Note: notice the version number after python=. Version numbers can be explicitly supplied to pin a package to a specific version. 
+
+name: brownie_p39
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.9
+- pip
+- pip:
+  - eth-brownie
+
